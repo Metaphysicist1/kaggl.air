@@ -1,11 +1,11 @@
 import unittest
 from pathlib import Path
-from kaggl_air import Kaggle_air
+from src.kaggl_air import KaggleAir
 
 
 class TestMyClass(unittest.TestCase):
     def setUp(self):
-        self.downloader = Kaggle_air("TestDownloader")
+        self.downloader = KaggleAir("TestDownloader")
 
     def test_initialization(self):
         self.assertEqual(self.downloader.name, "TestDownloader")

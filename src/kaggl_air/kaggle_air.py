@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 
-class Kaggle_air:
+class KaggleAir:
     def __init__(self, name):
         self.name = name
         self.default_destination = str(Path('~/Downloads').expanduser())
@@ -51,7 +51,7 @@ class Kaggle_air:
 
 # Example usage (should be in a separate file)
 if __name__ == "__main__":
-    downloader = Kaggle_air("KaggleDownloader")
+    downloader = KaggleAir("KaggleDownloader")
     link = "https://www.kaggle.com/api/v1/datasets/download/arpitsinghaiml/most-visited-country-dataset"
     downloader.download(link)
     downloader.unpack("~/Downloads/dataset.zip")

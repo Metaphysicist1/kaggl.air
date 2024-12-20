@@ -26,6 +26,8 @@ build/
 .env.local
 .env.*
 Pipfile
+.pytest_cache
+
 
 # IDE and editor files
 .idea/
