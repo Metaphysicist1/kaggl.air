@@ -1,14 +1,15 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
+
 [project]
-name = "your-package-name"
+name = "kaggl_air"
 version = "0.1.0"
 authors = [
-    { name="Your Name", email="your.email@example.com" },
+    { name="Edgar Abasov", email="edgarabasov1@gmail.com" },
 ]
-description = "A short description of your package"
+description = "easy downloader of datasets from kaggle.com"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
