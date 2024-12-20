@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kaggl_air
+Version: 0.1
+Summary: easy downloader of datasets from kaggle.com
+Home-page: https://github.com/Metaphysicist1/kaggl.air
+Author: Your Name
+Author-email: edgarabasov1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
